@@ -8,3 +8,16 @@ def names(sales)
 end
 
 names(sales)
+
+
+
+def addition(sales)
+  sum=0
+  sales.each do |a,b|
+    sum =sum+b
+  end
+  puts sum
+end
+
+addition(sales)
+
